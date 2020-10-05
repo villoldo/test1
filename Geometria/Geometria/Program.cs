@@ -34,6 +34,9 @@ namespace Geometria
             s6 = Utils.IsEven(5);
             System.Console.WriteLine(s6);
 
+            Ejercicios.Ejercicio1();
+
+            
         }
         
 
