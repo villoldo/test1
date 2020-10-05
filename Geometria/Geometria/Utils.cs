@@ -36,7 +36,8 @@ namespace Geometria
                 if (number % i == 0)
                     return false;
             }
-            return true;
+            System.Console.WriteLine("El numero introducido es primo ");
+            
         }
 
     }
