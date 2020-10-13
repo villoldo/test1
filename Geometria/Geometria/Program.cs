@@ -19,7 +19,7 @@ namespace Geometria
         {
             double s1;
             int s3, s4;
-            bool s6, s7;
+            bool s6;
 
 
             s1 = Geometry.GetVectorLenght(1.0, 1.0, 1.0);
@@ -36,11 +36,20 @@ namespace Geometria
 
             Ejercicios.Ejercicio1();
             Ejercicios.Ejercicio2(10);
+            Ejercicios.Ejercicio4();
+            Ejercicios.Ejercicio5();
+            Ejercicios.Ejercicio6();
+            Ejercicios.Ejercicio7();
 
-            s7 = Utils.IsPrime(13);
-            System.Console.WriteLine(s7);
 
+            int i = 2;
+            while (i < 100)
+            {
+                Ejercicios.Ejercicio3(i);
+                i++;
+            }
 
+            
         }
         
 

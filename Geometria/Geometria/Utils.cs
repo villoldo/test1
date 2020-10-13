@@ -35,9 +35,14 @@ namespace Geometria
             {
                 if (number % i == 0)
                     return false;
+                else
+                    i++;
             }
-            System.Console.WriteLine("El numero introducido es primo ");
+            return true;
+
             
+            
+
         }
 
     }
