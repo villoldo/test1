@@ -93,9 +93,10 @@ namespace Geometria
                         int aux = a;
                         a = a + aa;
                         aa = aux;
+                        i++;
                 
             }
-            i++;
+            
         }
 
     }
